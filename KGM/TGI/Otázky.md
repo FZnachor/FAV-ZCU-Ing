@@ -158,14 +158,18 @@ Poskytovatel ověření
 - správce – Úřad pro ochranu osobních údajů (ÚOOU)
 - zajištění ochrany osobních údajů v celém systému základních registrů
 - **náhrada používání rodného čísla fyzické osoby (FO)** systémem bezvýznamových identifikátorů
-	- **ZIFO** – zdrojový identifikátor FO
-	- **AIFO** – agendový identifikátor FO
+- **ZIFO** – zdrojový identifikátor FO
+	- náhodně generovaný
+- **AIFO** – agendový identifikátor FO
+	- různý pro různé agendy, odvozen od ZIFO
+- **IS ORG** – ukládá vazby AIFO a ZIFO
+	- dokáže převést AIFO jedné agendy na AIFO jiné agendy
 
 ### 11. Vyjmenujte způsoby, jakými je možné dostat se k datům základních registrů.
 
-- prostřednictvím CzechPoint
-- prostřednictvím Datových schránek
-- prostřednictvím Agendových informačních systémů (AIS) – které jsou propojeny se ZR
+- prostřednictvím **CzechPoint**
+- prostřednictvím **Datových schránek**
+- prostřednictvím **Agendových informačních systémů (AIS)** – které jsou propojeny se ZR
 	- **Centrální AIS** (jejich prostřednictvím jsou editovány údaje v ZR)
 	- **Lokální AIS** (vlastní IS jednotlivých orgánů veřejné moci, které musí mít technický certifikát napojení na ISZR)
 
@@ -281,9 +285,11 @@ Příklady užití
 ### 24. Popište hlavní aspekty interoperability.
 
 - **Technická interoperabilita**
-	- různé systémy dokážou číst a interpretovat stejná data bez ohledu na to, jak jsou uložena nebo jako technologii používají
+	- různé systémy dokážou číst a interpretovat stejná data
+	- nezáleží na způsobu uložení nebo na použité technologii
 - **Sémantická interoperabilita**
-	- data chápána stejně různými systémy, tj., že význam prvků a atributů je stejný
+	- data chápána stejně různými systémy
+	- význam prvků a atributů je stejný
 - **Organizační interoperabilita**
 	- organizace a instituce spolupracují a sdílejí data dle dohodnutých standardů a postupů
 
@@ -304,7 +310,7 @@ Příklady užití
 - výsledný systém decentralizovaný na národní úrovni a volitelně pak až na jednotlivé poskytovatele dat
 
 **Základní principy**
-- data shromažďována **pouze na jednom místě** a to na místě, kde je to nejvíce efektivní
+- data shromažďována **pouze na jednom místě**, kde je to nejvíce efektivní
 - možnost **kombinace** různých zdrojů prostorových dat v rámci celé Evropy a jejich sdílení s dalšími uživateli a aplikacemi
 - možnost **sdílení** prostorových dat, která jsou vytvořena v rámci jedné úrovně státní správy, na jejích dalších úrovních
 - **geografická data** potřebná pro rozhodování státní správy by měla být **snadno dostupná** a za jasných podmínek
