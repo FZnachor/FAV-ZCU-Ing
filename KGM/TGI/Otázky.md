@@ -65,11 +65,11 @@ Infrastruktura
 - umožňuje registrovaným uživatelům on-line přístup k údajům katastru nemovitostí (KN)
 
 Účty
-- účty jsou zřizovány na základě žádost
++ účty jsou zřizovány na základě žádost
 - běžný (úplatný)
-	- pro bezúplatný dálkový přístup
-	- pro účely vydávání ověřených výstupů z KN
-	- pro vyhotovitele a ověřovatele geometrických plánů
+- pro bezúplatný dálkový přístup
+- pro účely vydávání ověřených výstupů z KN
+- pro vyhotovitele a ověřovatele geometrických plánů
 - interní
 
 Sestavy
@@ -155,7 +155,7 @@ Poskytovatel ověření
 
 ### 10. Popište ORG - převodník identifikátorů a vazbu mezi ZIFO a AIFO.
 
-- správce – Úřad pro ochranu osobních údajů (ÚOOU)
+- správce – Úřad pro ochranu osobních údajů (ÚOOÚ)
 - zajištění ochrany osobních údajů v celém systému základních registrů
 - **náhrada používání rodného čísla fyzické osoby (FO)** systémem bezvýznamových identifikátorů
 - **ZIFO** – zdrojový identifikátor FO
@@ -203,7 +203,6 @@ Editace údajů RÚIAN pomocí dvou AIS
 	- stavební úřady
 	- Český statistický úřad (ČSÚ)
 	- Český úřad zeměměřický a katastrální (ČÚZK)
-	- editoři ÚÚP
 - Informační systém katastru nemovitostí (ISKN)
 
 ### 14. Vyjmenujte způsoby, jakými je možné dostat data RÚIAN do GIS.
@@ -274,8 +273,11 @@ Příklady užití
 
 ### 22. Popište proces harmonizace prostorových dat.
 
-- proces **sjednocování a standardizace dat**, která mají geografickou polohu, **aby byla** snadno a efektivně **kombinovatelná z různých zdrojů a systémů**
-- cílem je zajistit, aby data byla vzájemně kompatibilní a použitelná napříč různými aplikacemi a platformami, což usnadňuje sdílení a výměnu informací
+- **sjednocování a standardizace dat** s geografickou polohu
+- snadná a efektivní **kombinovatelnost z různých zdrojů a systémů**
+- vzájemně kompatibilní a použitelná data napříč různými aplikacemi a platformami
+- usnadnění sdílení a výměny informací
+- důležitá pro zajištění interoperability
 
 ### 23. Co je to interoperabilita prostorových dat?
 
@@ -312,8 +314,8 @@ Příklady užití
 **Základní principy**
 - data shromažďována **pouze na jednom místě**, kde je to nejvíce efektivní
 - možnost **kombinace** různých zdrojů prostorových dat v rámci celé Evropy a jejich sdílení s dalšími uživateli a aplikacemi
-- možnost **sdílení** prostorových dat, která jsou vytvořena v rámci jedné úrovně státní správy, na jejích dalších úrovních
-- **geografická data** potřebná pro rozhodování státní správy by měla být **snadno dostupná** a za jasných podmínek
+- možnost **sdílení** prostorových dat na více úrovních státní správy
+- **snadná dostupnost** geografických dat pro rozhodování státní správy
 - **snadné vyhledání dostupných dat** a jejich vhodnosti
 
 ### 27. Uveďte příklady služeb vyžadovaných prováděcími pravidly pro služby INSPIRE.
