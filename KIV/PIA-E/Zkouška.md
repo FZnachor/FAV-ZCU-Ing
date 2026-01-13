@@ -136,5 +136,5 @@
 - **Architektura**: Vrstvená (Layered), Clean Architecture (Dependency Rule: závislosti směrem dovnitř).
 - **Kvalita SW**:
     - **Validace**: Děláme správnou věc?
-    - **Verifikace**: Děláme věc správně? (Unit testy, Integrační testy, Funkční testy).
+    - **Verifikace**: Děláme věc správně, podle specifikace? (Unit testy, Integrační testy, Funkční testy).
     - **Logování**: Application, Access, Audit logy.
